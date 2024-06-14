@@ -22,7 +22,7 @@ public class Item {
     }
     
     public String getSize() {
-        return (size = 1) ? "Small" : (size = 2) ? "Medium" : "Large";
+        return (this.size == 1) ? "Small" : (this.size == 2) ? "Medium" : "Large";
     }
     
     public double getPrice() {
